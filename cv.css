@@ -1,0 +1,101 @@
+/* إعدادات عامة */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* العنوان */
+header h1 {
+    margin: 50px 0;
+    font-size: 2.5em;
+    color: #007bff;
+}
+
+/* صورة الملف الشخصي */
+#profile-picture {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+    .all-data {
+        width: 95%;
+    }
+
+    #profile-picture img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* الأقسام */
+.all-data {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.data-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.data-section h2 {
+    font-size: 1.5em;
+    color: #007bff;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.data-section p, 
+.data-section ul {
+    font-size: 1em;
+}
+
+.data-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.data-section ul li {
+    margin: 5px 0;
+    position: relative;
+}
+
+.data-section ul li::before {
+    content: "•";
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+}
+
+/* الفوتر */
+footer {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 0.9em;
+    color: #6c757d;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
